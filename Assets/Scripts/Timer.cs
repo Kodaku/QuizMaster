@@ -28,8 +28,6 @@ public class Timer : MonoBehaviour
 
         fillFraction = isAnsweringQuestion ? timerValue / timeToCompleteQuestion : timerValue / timeToShowRightAnswer;
 
-
-
         if (timerValue <= 0.0f) {
             if (isAnsweringQuestion) {
                 timerValue = timeToShowRightAnswer;
